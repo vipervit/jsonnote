@@ -30,29 +30,53 @@ Methods:
    Example of use:
 
  \>>> from jsonnote import jsonnote
- \>>> x=jsonnote()
- \>>> x.filename = 'temp'
- \>>> x.location
- \>>> x.location = '.'
- \>>> x.full_path()
- './temp.json'
- \>>> x.contents = {'fruits': ['apple', 'pear', 'orange'], 'veggies': ['potato', 'cucumber'], 'dairy': 'milk'}
- \>>> x.mustsave=True
- \>>> x.save_to_file()
+
+\>>> x=jsonnote()
+
+\>>> x.filename = 'temp'
+
+
+\>>> x.location
+
+\>>> x.location = '.'
+
+\>>> x.full_path()
+
+'./temp.json'
+
+\>>> x.contents = {'fruits': ['apple', 'pear', 'orange'], 'veggies': ['potato', 'cucumber'], 'dairy': 'milk'}
+
+\>>> x.mustsave=True
+
+\>>> x.save_to_file()
 
  \>>> y=jsonnote()
- \>>> y.filename = 'temp'
- \>>> y.location='.'
- \>>> y.file_exists()
- True
- \>>> y.contents
+
+\>>> y.filename = 'temp'
+
+\>>> y.location='.'
+
+\>>> y.file_exists()
+
+True
+
+\>>> y.contents
+
 {'fruits': ['apple', 'pear', 'orange'], 'veggies': ['potato', 'cucumber'], 'dairy': 'milk'}
+
 \>>> y.contents['fruits'][1]
+
 'pear'
 
+
 \>>> y.mustdelete=True # *False by default; if False the file is not deleted
+
 \>>> y.destroy()
+
 \>>> y.file_exists()
+
 False
+
 \>>> y.contents
+
 {}
