@@ -1,8 +1,6 @@
-from viperlib.src.jsd import jsondata
-from viperlib.src.misc import dir_get
+from jsonnote.src.jsonnote import jsonnote
+from jsonnote.tests import dir_data
 import os
-
-os.chdir(dir_get(__file__))
 
 fname = 'person'
 newname = fname + 'new'
@@ -10,10 +8,10 @@ location = 'data'
 
 class Test_jsd():
 
-    x = jsondata()
+    x = jsonnote()
     x.filename = fname
-    x.location = location
-    y = jsondata()
+    x.location = dir_data
+    y = jsonnote()
 
     def test_is_empty(self):
         assert self.x.is_empty(), 'Expected empty contents.'

@@ -1,5 +1,5 @@
 """
-Contains class jsondata - a simple interface for working with JSON files.
+Contains class jsonnote - a simple interface for working with JSON files.
 Properties:
     filename - name of the file without the extension (extention '.json' will be added automatically).
     location - location of the file. Once set, the file can be found and read from or write into.
@@ -7,7 +7,7 @@ Properties:
 Methods:
     full_path()
     file_exists()
-    is_empty()      - returns True/False depending on whether the contents are empty
+    is_empty()      - returns True/False depending on whether the contents of the class instance are empty
     get_from_file() - reads contents from the JSON file
     save_to_file()  - saves contents in the JSON  file
     clear()         - empties the contents
@@ -30,7 +30,7 @@ import json
 
 logger = logging.getLogger(__name__)
 
-class jsondata():
+class jsonnote():
 
     def __init__(self):
         self._f = None
