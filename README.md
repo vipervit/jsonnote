@@ -65,6 +65,7 @@ True
 {'fruits': ['apple', 'pear', 'orange'], 'veggies': ['potato', 'cucumber'], 'dairy': 'milk'}
 
 \>>> y.contents['fruits'][1]
+
 'pear'
 
 \>>> y.mustdelete=True # *False by default; if False the file is not deleted
@@ -72,6 +73,7 @@ True
 \>>> y.destroy()
 
 \>>> y.file_exists()
+
 False
 
 \>>> y.contents
