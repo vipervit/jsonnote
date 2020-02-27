@@ -1,33 +1,34 @@
 # jsonnote
  A simple utility for working with JSON files. Contains a small class jsonnote with the following attributes:
 
-Properties:
+#### *Properties:* ####
 
-   filename - name of the file without the extension (extention '.json' will be added automatically).
+   *filename* - name of the file without the extension (extention '.json' will be added automatically).
 
-   location - location of the file. Once set, the file can be found and read from or write into.
+   *location* - location of the file. Once set, the file can be found and read from or write into.
 
-   contents - JSON contents of the class instance.
+   *contents* - JSON contents of the class instance.
 
-Methods:
+#### *Methods:* ####
 
-   full_path()
+   *full_path()*
 
-   file_exists()
+   *file_exists()*
 
-   is_empty()      - returns True/False depending on whether the contents of the class instance are empty
+   *is_empty()      - returns True/False depending on whether the contents of the class instance are empty
 
-   get_from_file() - reads contents from the JSON file
+   *get_from_file()* - reads contents from the JSON file
 
-   save_to_file()  - saves contents in the JSON  file
+   *save_to_file()*  - saves contents in the JSON  file
 
-   clear()         - empties the contents
+   *clear()*         - empties the contents
 
-   destroy()       - empties the contents and erases the file from the disc
+   *destroy()*       - empties the contents and erases the file from the disc
 
-   reset()         - empties the contents, destroys the file and sets 'filename' and 'location' to 'None'
+   *reset()*         - empties the contents, destroys the file and sets 'filename' and 'location' to 'None'
 
-   Example of use:
+ 
+ #### Example of use: ####
 
  \>>> from jsonnote import jsonnote
 
