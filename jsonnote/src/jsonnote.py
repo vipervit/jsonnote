@@ -16,7 +16,7 @@ Methods:
 
     Example of use:
 
-        x = jsondata()
+        x = jsonnote()
         x.filename = <filename>
         x.location = <some directory>
         x.contents = <data in JSON format>
