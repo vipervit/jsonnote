@@ -21,7 +21,7 @@
 
    *file_exists()*
 
-   *is_empty()      - returns True/False depending on whether the contents of the class instance are empty
+   *is_empty()*      - returns True/False depending on whether the contents of the class instance are empty
 
    *get_from_file()* - reads contents from the JSON file
 
