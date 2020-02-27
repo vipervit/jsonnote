@@ -1,6 +1,7 @@
 # jsonnote
  A simple utility for working with JSON files. Contains a small class jsonnote with the following attributes:
 
+
 #### *Properties:* ####
 
    *filename* - name of the file without the extension (extention '.json' will be added automatically).
@@ -8,6 +9,7 @@
    *location* - location of the file. Once set, the file can be found and read from or write into.
 
    *contents* - JSON contents of the class instance.
+
 
 #### *Methods:* ####
 
@@ -27,7 +29,8 @@
 
    *reset()*         - empties the contents, destroys the file and sets 'filename' and 'location' to 'None'
 
- 
+
+
  #### Example of use: ####
 
  \>>> from jsonnote import jsonnote
