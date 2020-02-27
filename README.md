@@ -11,7 +11,7 @@
 
    *location* - location of the file. Once set, the file can be found and read from or write into.
 
-   *contents* - JSON contents of the class instance.  
+   *contents* - JSON contents of the class instance.<br>  
 
 
 
@@ -31,7 +31,7 @@
 
    *destroy()*       - empties the contents and erases the file from the disc
 
-   *reset()*         - empties the contents, destroys the file and sets 'filename' and 'location' to 'None'
+   *reset()*         - empties the contents, destroys the file and sets 'filename' and 'location' to 'None'<br>
 
 
 
