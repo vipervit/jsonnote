@@ -30,7 +30,7 @@ import json
 
 logger = logging.getLogger(__name__)
 
-class jsonnote():
+class jsonnote:
 
     def __init__(self):
         self._f = None

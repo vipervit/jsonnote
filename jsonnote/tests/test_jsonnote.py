@@ -6,7 +6,7 @@ fname = 'person'
 newname = fname + 'new'
 location = 'data'
 
-class Test_jsd():
+class Test_jsd:
 
     x = jsonnote()
     x.filename = fname
