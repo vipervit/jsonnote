@@ -6,4 +6,4 @@ logger.addHandler(console)
 
 from jsonnote.src.jsonnote import jsonnote as jsonnote
 
-__version__ = '0.0.1'
+__version__ = '0.12.01'
